@@ -7,7 +7,7 @@ count = 4
 ami = "ami-02d26659fd82cf299"
 instance_type = "t2.medium"
 key_name = "TERRAFORMKEYPAIR"
-vpc_security_group_ids = ["vpc-0d7a67f09e82653b5"]
+vpc_security_group_ids = ["sg-098d6c6e8023f63eb"]
 tags = {
 Name = var.instance_names[count.index]
 }
